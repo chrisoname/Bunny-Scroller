@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D20486220E9AF75005348DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20486120E9AF75005348DE /* AppDelegate.swift */; };
+		9D20486A20E9AF75005348DE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20486920E9AF75005348DE /* GameViewController.swift */; };
+		9D20486D20E9AF75005348DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D20486B20E9AF75005348DE /* Main.storyboard */; };
+		9D20486F20E9AF7C005348DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D20486E20E9AF7C005348DE /* Assets.xcassets */; };
+		9D20487220E9AF7C005348DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D20487020E9AF7C005348DE /* LaunchScreen.storyboard */; };
+		9D20487D20E9AF7C005348DE /* Bunny_ScrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20487C20E9AF7C005348DE /* Bunny_ScrollerTests.swift */; };
+		9D20488820E9AF7D005348DE /* Bunny_ScrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20488720E9AF7D005348DE /* Bunny_ScrollerUITests.swift */; };
+		9D20489720E9B089005348DE /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D20489620E9B089005348DE /* GameplayScene.sks */; };
+		9D20489A20E9B14C005348DE /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20489920E9B14C005348DE /* GameplayScene.swift */; };
+		9D2048A020E9C7ED005348DE /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20489F20E9C7ED005348DE /* BGClass.swift */; };
+		9D2048A220E9D1B4005348DE /* GroundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2048A120E9D1B4005348DE /* GroundClass.swift */; };
+		9D2048A520E9EE59005348DE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2048A420E9EE59005348DE /* Player.swift */; };
+		9D2048BF20EACBCF005348DE /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BB20EACBCE005348DE /* Player 2.png */; };
+		9D2048C020EACBCF005348DE /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BC20EACBCF005348DE /* Player 1.png */; };
+		9D2048C120EACBCF005348DE /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BD20EACBCF005348DE /* Player 5.png */; };
+		9D2048C220EACBCF005348DE /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BE20EACBCF005348DE /* Player 3.png */; };
+		9D2048C420EB50C2005348DE /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048C320EB50C2005348DE /* Player 4.png */; };
+		9D2048C620EB6D10005348DE /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048C520EB6D10005348DE /* Player 6.png */; };
+		9D64D2CA20FBEFBA0086933F /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D64D2C920FBEFBA0086933F /* ItemController.swift */; };
+		9DE0747221029DA00067F180 /* blood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747021029D9F0067F180 /* blood2.png */; };
+		9DE0747321029DA00067F180 /* blood1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747121029DA00067F180 /* blood1.png */; };
+		9DE074792103CBE70067F180 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DE074782103CBE70067F180 /* MyScene.sks */; };
+		9DE0747B2103CC2D0067F180 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE0747A2103CC2D0067F180 /* MainMenuScene.swift */; };
+		9DE0747F2103E47F0067F180 /* Image.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747E2103E47E0067F180 /* Image.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D20487920E9AF7C005348DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D20485620E9AF75005348DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D20485D20E9AF75005348DE;
+			remoteInfo = "Bunny Scroller";
+		};
+		9D20488420E9AF7D005348DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D20485620E9AF75005348DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D20485D20E9AF75005348DE;
+			remoteInfo = "Bunny Scroller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D20485E20E9AF75005348DE /* Bunny Scroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunny Scroller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D20486120E9AF75005348DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D20486920E9AF75005348DE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9D20486C20E9AF75005348DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D20486E20E9AF7C005348DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D20487120E9AF7C005348DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D20487320E9AF7C005348DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D20487820E9AF7C005348DE /* Bunny ScrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny ScrollerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D20487C20E9AF7C005348DE /* Bunny_ScrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_ScrollerTests.swift; sourceTree = "<group>"; };
+		9D20487E20E9AF7C005348DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D20488320E9AF7D005348DE /* Bunny ScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny ScrollerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D20488720E9AF7D005348DE /* Bunny_ScrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_ScrollerUITests.swift; sourceTree = "<group>"; };
+		9D20488920E9AF7D005348DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D20489620E9B089005348DE /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		9D20489920E9B14C005348DE /* GameplayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		9D20489F20E9C7ED005348DE /* BGClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		9D2048A120E9D1B4005348DE /* GroundClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundClass.swift; sourceTree = "<group>"; };
+		9D2048A420E9EE59005348DE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9D2048BB20EACBCE005348DE /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		9D2048BC20EACBCF005348DE /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		9D2048BD20EACBCF005348DE /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		9D2048BE20EACBCF005348DE /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		9D2048C320EB50C2005348DE /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		9D2048C520EB6D10005348DE /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		9D64D2C920FBEFBA0086933F /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		9DE0747021029D9F0067F180 /* blood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blood2.png; path = ../../../../blood2.png; sourceTree = "<group>"; };
+		9DE0747121029DA00067F180 /* blood1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blood1.png; path = ../../../../blood1.png; sourceTree = "<group>"; };
+		9DE074782103CBE70067F180 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		9DE0747A2103CC2D0067F180 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		9DE0747E2103E47E0067F180 /* Image.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Image.atlas; path = ../../../Image.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D20485B20E9AF75005348DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20487520E9AF7C005348DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20488020E9AF7D005348DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D20485520E9AF75005348DE = {
+			isa = PBXGroup;
+			children = (
+				9D20486020E9AF75005348DE /* Bunny Scroller */,
+				9D20487B20E9AF7C005348DE /* Bunny ScrollerTests */,
+				9D20488620E9AF7D005348DE /* Bunny ScrollerUITests */,
+				9D20485F20E9AF75005348DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D20485F20E9AF75005348DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D20485E20E9AF75005348DE /* Bunny Scroller.app */,
+				9D20487820E9AF7C005348DE /* Bunny ScrollerTests.xctest */,
+				9D20488320E9AF7D005348DE /* Bunny ScrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D20486020E9AF75005348DE /* Bunny Scroller */ = {
+			isa = PBXGroup;
+			children = (
+				9D20489820E9B12C005348DE /* Classes */,
+				9D20489520E9B040005348DE /* Scenes */,
+				9D20486120E9AF75005348DE /* AppDelegate.swift */,
+				9DE0747C2103E42E0067F180 /* Images */,
+				9D20486920E9AF75005348DE /* GameViewController.swift */,
+				9D20486B20E9AF75005348DE /* Main.storyboard */,
+				9D20486E20E9AF7C005348DE /* Assets.xcassets */,
+				9D20487020E9AF7C005348DE /* LaunchScreen.storyboard */,
+				9D20487320E9AF7C005348DE /* Info.plist */,
+			);
+			path = "Bunny Scroller";
+			sourceTree = "<group>";
+		};
+		9D20487B20E9AF7C005348DE /* Bunny ScrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D20487C20E9AF7C005348DE /* Bunny_ScrollerTests.swift */,
+				9D20487E20E9AF7C005348DE /* Info.plist */,
+			);
+			path = "Bunny ScrollerTests";
+			sourceTree = "<group>";
+		};
+		9D20488620E9AF7D005348DE /* Bunny ScrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D20488720E9AF7D005348DE /* Bunny_ScrollerUITests.swift */,
+				9D20488920E9AF7D005348DE /* Info.plist */,
+			);
+			path = "Bunny ScrollerUITests";
+			sourceTree = "<group>";
+		};
+		9D20489520E9B040005348DE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9D20489620E9B089005348DE /* GameplayScene.sks */,
+				9DE074782103CBE70067F180 /* MyScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9D20489820E9B12C005348DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D64D2C820FBEF8E0086933F /* Item Controller */,
+				9D2048A320E9EE2D005348DE /* Player Class */,
+				9D20489E20E9C7BC005348DE /* BG and Ground Classes */,
+				9D20489D20E9C7A1005348DE /* Scene Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D20489D20E9C7A1005348DE /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D20489920E9B14C005348DE /* GameplayScene.swift */,
+				9DE0747A2103CC2D0067F180 /* MainMenuScene.swift */,
+			);
+			path = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		9D20489E20E9C7BC005348DE /* BG and Ground Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D20489F20E9C7ED005348DE /* BGClass.swift */,
+				9D2048A120E9D1B4005348DE /* GroundClass.swift */,
+			);
+			path = "BG and Ground Classes";
+			sourceTree = "<group>";
+		};
+		9D2048A320E9EE2D005348DE /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				9D2048A420E9EE59005348DE /* Player.swift */,
+			);
+			path = "Player Class";
+			sourceTree = "<group>";
+		};
+		9D2048A820E9F1B2005348DE /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				9D2048BC20EACBCF005348DE /* Player 1.png */,
+				9D2048BB20EACBCE005348DE /* Player 2.png */,
+				9D2048BE20EACBCF005348DE /* Player 3.png */,
+				9D2048C320EB50C2005348DE /* Player 4.png */,
+				9D2048BD20EACBCF005348DE /* Player 5.png */,
+				9D2048C520EB6D10005348DE /* Player 6.png */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		9D64D2C820FBEF8E0086933F /* Item Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DE0747121029DA00067F180 /* blood1.png */,
+				9DE0747021029D9F0067F180 /* blood2.png */,
+				9D64D2C920FBEFBA0086933F /* ItemController.swift */,
+			);
+			path = "Item Controller";
+			sourceTree = "<group>";
+		};
+		9DE0747C2103E42E0067F180 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DE0747E2103E47E0067F180 /* Image.atlas */,
+				9D2048A820E9F1B2005348DE /* Player */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D20485D20E9AF75005348DE /* Bunny Scroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D20488C20E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny Scroller" */;
+			buildPhases = (
+				9D20485A20E9AF75005348DE /* Sources */,
+				9D20485B20E9AF75005348DE /* Frameworks */,
+				9D20485C20E9AF75005348DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunny Scroller";
+			productName = "Bunny Scroller";
+			productReference = 9D20485E20E9AF75005348DE /* Bunny Scroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D20487720E9AF7C005348DE /* Bunny ScrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D20488F20E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny ScrollerTests" */;
+			buildPhases = (
+				9D20487420E9AF7C005348DE /* Sources */,
+				9D20487520E9AF7C005348DE /* Frameworks */,
+				9D20487620E9AF7C005348DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D20487A20E9AF7C005348DE /* PBXTargetDependency */,
+			);
+			name = "Bunny ScrollerTests";
+			productName = "Bunny ScrollerTests";
+			productReference = 9D20487820E9AF7C005348DE /* Bunny ScrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D20488220E9AF7D005348DE /* Bunny ScrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D20489220E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny ScrollerUITests" */;
+			buildPhases = (
+				9D20487F20E9AF7D005348DE /* Sources */,
+				9D20488020E9AF7D005348DE /* Frameworks */,
+				9D20488120E9AF7D005348DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D20488520E9AF7D005348DE /* PBXTargetDependency */,
+			);
+			name = "Bunny ScrollerUITests";
+			productName = "Bunny ScrollerUITests";
+			productReference = 9D20488320E9AF7D005348DE /* Bunny ScrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D20485620E9AF75005348DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Christopher De Jesus";
+				TargetAttributes = {
+					9D20485D20E9AF75005348DE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9D20487720E9AF7C005348DE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9D20485D20E9AF75005348DE;
+					};
+					9D20488220E9AF7D005348DE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9D20485D20E9AF75005348DE;
+					};
+				};
+			};
+			buildConfigurationList = 9D20485920E9AF75005348DE /* Build configuration list for PBXProject "Bunny Scroller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D20485520E9AF75005348DE;
+			productRefGroup = 9D20485F20E9AF75005348DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D20485D20E9AF75005348DE /* Bunny Scroller */,
+				9D20487720E9AF7C005348DE /* Bunny ScrollerTests */,
+				9D20488220E9AF7D005348DE /* Bunny ScrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D20485C20E9AF75005348DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D20486D20E9AF75005348DE /* Main.storyboard in Resources */,
+				9D20486F20E9AF7C005348DE /* Assets.xcassets in Resources */,
+				9DE0747221029DA00067F180 /* blood2.png in Resources */,
+				9DE0747F2103E47F0067F180 /* Image.atlas in Resources */,
+				9D2048C620EB6D10005348DE /* Player 6.png in Resources */,
+				9D2048BF20EACBCF005348DE /* Player 2.png in Resources */,
+				9D20489720E9B089005348DE /* GameplayScene.sks in Resources */,
+				9D20487220E9AF7C005348DE /* LaunchScreen.storyboard in Resources */,
+				9D2048C120EACBCF005348DE /* Player 5.png in Resources */,
+				9D2048C220EACBCF005348DE /* Player 3.png in Resources */,
+				9DE074792103CBE70067F180 /* MyScene.sks in Resources */,
+				9D2048C020EACBCF005348DE /* Player 1.png in Resources */,
+				9DE0747321029DA00067F180 /* blood1.png in Resources */,
+				9D2048C420EB50C2005348DE /* Player 4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20487620E9AF7C005348DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20488120E9AF7D005348DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D20485A20E9AF75005348DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D64D2CA20FBEFBA0086933F /* ItemController.swift in Sources */,
+				9D20486A20E9AF75005348DE /* GameViewController.swift in Sources */,
+				9D20489A20E9B14C005348DE /* GameplayScene.swift in Sources */,
+				9D2048A220E9D1B4005348DE /* GroundClass.swift in Sources */,
+				9D20486220E9AF75005348DE /* AppDelegate.swift in Sources */,
+				9D2048A520E9EE59005348DE /* Player.swift in Sources */,
+				9DE0747B2103CC2D0067F180 /* MainMenuScene.swift in Sources */,
+				9D2048A020E9C7ED005348DE /* BGClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20487420E9AF7C005348DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D20487D20E9AF7C005348DE /* Bunny_ScrollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20487F20E9AF7D005348DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D20488820E9AF7D005348DE /* Bunny_ScrollerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D20487A20E9AF7C005348DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D20485D20E9AF75005348DE /* Bunny Scroller */;
+			targetProxy = 9D20487920E9AF7C005348DE /* PBXContainerItemProxy */;
+		};
+		9D20488520E9AF7D005348DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D20485D20E9AF75005348DE /* Bunny Scroller */;
+			targetProxy = 9D20488420E9AF7D005348DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D20486B20E9AF75005348DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D20486C20E9AF75005348DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D20487020E9AF7C005348DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D20487120E9AF7C005348DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D20488A20E9AF7D005348DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D20488B20E9AF7D005348DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D20488D20E9AF7D005348DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Scroller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-Scroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D20488E20E9AF7D005348DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Scroller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-Scroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D20489020E9AF7D005348DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny ScrollerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-ScrollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Scroller.app/Bunny Scroller";
+			};
+			name = Debug;
+		};
+		9D20489120E9AF7D005348DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny ScrollerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-ScrollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Scroller.app/Bunny Scroller";
+			};
+			name = Release;
+		};
+		9D20489320E9AF7D005348DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny ScrollerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-ScrollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Scroller";
+			};
+			name = Debug;
+		};
+		9D20489420E9AF7D005348DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny ScrollerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ViperDen.Bunny-ScrollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Scroller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D20485920E9AF75005348DE /* Build configuration list for PBXProject "Bunny Scroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D20488A20E9AF7D005348DE /* Debug */,
+				9D20488B20E9AF7D005348DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D20488C20E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny Scroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D20488D20E9AF7D005348DE /* Debug */,
+				9D20488E20E9AF7D005348DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D20488F20E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny ScrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D20489020E9AF7D005348DE /* Debug */,
+				9D20489120E9AF7D005348DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D20489220E9AF7D005348DE /* Build configuration list for PBXNativeTarget "Bunny ScrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D20489320E9AF7D005348DE /* Debug */,
+				9D20489420E9AF7D005348DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D20485620E9AF75005348DE /* Project object */;
+}
