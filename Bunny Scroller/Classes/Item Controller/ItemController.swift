@@ -32,7 +32,17 @@ class ItemController: SKSpriteNode {
         let item: SKSpriteNode?
         var animateRocketAction = SKAction();
 
-        if Int(randomBetweenNumbers(firstNum: 0, secondNum: 10)) >= 6 {
+        
+        
+        if Int(randomBetweenNumbers(firstNum: 0, secondNum: 4)) == 3 {
+            item = SKSpriteNode(imageNamed: "carrot")
+            item?.name = "Supercarrot"
+            item?.setScale(1.0)
+            item?.physicsBody = SKPhysicsBody(circleOfRadius: item!.size.height / 2)
+            item?.physicsBody?.usesPreciseCollisionDetection = true
+        }
+        
+       else if Int(randomBetweenNumbers(firstNum: 0, secondNum: 20)) >= 11 {
 
             
             
@@ -57,6 +67,8 @@ class ItemController: SKSpriteNode {
             
             
         }
+        
+        
         else{
             item = SKSpriteNode(imageNamed: "carrot")
             item?.name = "carrot"

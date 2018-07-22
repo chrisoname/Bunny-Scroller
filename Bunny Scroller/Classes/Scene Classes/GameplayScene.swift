@@ -43,6 +43,9 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
         manageBGsAndGrounds();
         player?.move();
         moveRocket()
+        print(player?.superBB)
+        print(player?.name)
+        
         
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -51,11 +54,15 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
         
     }
     
+ 
+    
     func didBegin(_ contact: SKPhysicsContact) {
         var firstBody = SKPhysicsBody()
         var secondBody = SKPhysicsBody()
         
-        if contact.bodyA.node?.name == "Player" {
+        
+        
+        if contact.bodyA.node?.name == "Player" || contact.bodyA.node?.name == "PlayerSuper" {
             firstBody = contact.bodyA
             secondBody = contact.bodyB
         }
@@ -64,7 +71,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
             secondBody = contact.bodyA
         }
         
-        if firstBody.node?.name == "Player" && secondBody.node?.name == "carrot"{
+        if (firstBody.node?.name == "Player" || firstBody.node?.name == "PlayerSuper") && secondBody.node?.name == "carrot"{
             secondBody.node?.removeFromParent()
             score += 1
             scoreLabel?.text = String(score)
@@ -76,10 +83,19 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
 
             Timer.scheduledTimer(timeInterval: TimeInterval(2), target: self, selector: #selector (GameplayScene.restartGame), userInfo: nil, repeats: false)
         }
+        if (firstBody.node?.name == "Player" || firstBody.node?.name == "PlayerSuper") && secondBody.node?.name == "Supercarrot"{
+            secondBody.node?.removeFromParent()
+            
+            player?.superBB = true
+            player?.initializePlayer()
+            player?.name = "PlayerSuper"
+
+        }
         
 
     }
-    
+  
+  
     private func initializeGame(){
         
         physicsWorld.contactDelegate = self
@@ -208,7 +224,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
     
     @objc func removeItems() {
         for child in children {
-            if child.name == "carrot" || child.name == "blood"{
+            if child.name == "carrot" || child.name == "blood" || child.name == "SuperCarrot"{
                 if child.position.x < self.mainCamera!.position.x - self.scene!.frame.width / 2 {
                     child.removeFromParent()
                 }

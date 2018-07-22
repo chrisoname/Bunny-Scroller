@@ -21,13 +21,13 @@
 		9D2048A520E9EE59005348DE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2048A420E9EE59005348DE /* Player.swift */; };
 		9D2048BF20EACBCF005348DE /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BB20EACBCE005348DE /* Player 2.png */; };
 		9D2048C020EACBCF005348DE /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BC20EACBCF005348DE /* Player 1.png */; };
-		9D2048C120EACBCF005348DE /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BD20EACBCF005348DE /* Player 5.png */; };
 		9D2048C220EACBCF005348DE /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048BE20EACBCF005348DE /* Player 3.png */; };
 		9D2048C420EB50C2005348DE /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048C320EB50C2005348DE /* Player 4.png */; };
-		9D2048C620EB6D10005348DE /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2048C520EB6D10005348DE /* Player 6.png */; };
 		9D64D2CA20FBEFBA0086933F /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D64D2C920FBEFBA0086933F /* ItemController.swift */; };
-		9DE0747221029DA00067F180 /* blood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747021029D9F0067F180 /* blood2.png */; };
-		9DE0747321029DA00067F180 /* blood1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747121029DA00067F180 /* blood1.png */; };
+		9DCDDFA221053A5E004EB7F8 /* PlayerSuper 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDDF9E21053A5E004EB7F8 /* PlayerSuper 1.png */; };
+		9DCDDFA321053A5E004EB7F8 /* PlayerSuper 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDDF9F21053A5E004EB7F8 /* PlayerSuper 4.png */; };
+		9DCDDFA421053A5E004EB7F8 /* PlayerSuper 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDDFA021053A5E004EB7F8 /* PlayerSuper 3.png */; };
+		9DCDDFA521053A5E004EB7F8 /* PlayerSuper 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDDFA121053A5E004EB7F8 /* PlayerSuper 2.png */; };
 		9DE074792103CBE70067F180 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DE074782103CBE70067F180 /* MyScene.sks */; };
 		9DE0747B2103CC2D0067F180 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE0747A2103CC2D0067F180 /* MainMenuScene.swift */; };
 		9DE0747F2103E47F0067F180 /* Image.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9DE0747E2103E47E0067F180 /* Image.atlas */; };
@@ -71,13 +71,13 @@
 		9D2048A420E9EE59005348DE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		9D2048BB20EACBCE005348DE /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
 		9D2048BC20EACBCF005348DE /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
-		9D2048BD20EACBCF005348DE /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
 		9D2048BE20EACBCF005348DE /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
 		9D2048C320EB50C2005348DE /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
-		9D2048C520EB6D10005348DE /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
 		9D64D2C920FBEFBA0086933F /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
-		9DE0747021029D9F0067F180 /* blood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blood2.png; path = ../../../../blood2.png; sourceTree = "<group>"; };
-		9DE0747121029DA00067F180 /* blood1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blood1.png; path = ../../../../blood1.png; sourceTree = "<group>"; };
+		9DCDDF9E21053A5E004EB7F8 /* PlayerSuper 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerSuper 1.png"; sourceTree = "<group>"; };
+		9DCDDF9F21053A5E004EB7F8 /* PlayerSuper 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerSuper 4.png"; sourceTree = "<group>"; };
+		9DCDDFA021053A5E004EB7F8 /* PlayerSuper 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerSuper 3.png"; sourceTree = "<group>"; };
+		9DCDDFA121053A5E004EB7F8 /* PlayerSuper 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerSuper 2.png"; sourceTree = "<group>"; };
 		9DE074782103CBE70067F180 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		9DE0747A2103CC2D0067F180 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		9DE0747E2103E47E0067F180 /* Image.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Image.atlas; path = ../../../Image.atlas; sourceTree = "<group>"; };
@@ -211,12 +211,14 @@
 		9D2048A820E9F1B2005348DE /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				9DCDDF9E21053A5E004EB7F8 /* PlayerSuper 1.png */,
+				9DCDDFA121053A5E004EB7F8 /* PlayerSuper 2.png */,
+				9DCDDFA021053A5E004EB7F8 /* PlayerSuper 3.png */,
+				9DCDDF9F21053A5E004EB7F8 /* PlayerSuper 4.png */,
 				9D2048BC20EACBCF005348DE /* Player 1.png */,
 				9D2048BB20EACBCE005348DE /* Player 2.png */,
 				9D2048BE20EACBCF005348DE /* Player 3.png */,
 				9D2048C320EB50C2005348DE /* Player 4.png */,
-				9D2048BD20EACBCF005348DE /* Player 5.png */,
-				9D2048C520EB6D10005348DE /* Player 6.png */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -224,8 +226,6 @@
 		9D64D2C820FBEF8E0086933F /* Item Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9DE0747121029DA00067F180 /* blood1.png */,
-				9DE0747021029D9F0067F180 /* blood2.png */,
 				9D64D2C920FBEFBA0086933F /* ItemController.swift */,
 			);
 			path = "Item Controller";
@@ -344,19 +344,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCDDFA321053A5E004EB7F8 /* PlayerSuper 4.png in Resources */,
 				9D20486D20E9AF75005348DE /* Main.storyboard in Resources */,
 				9D20486F20E9AF7C005348DE /* Assets.xcassets in Resources */,
-				9DE0747221029DA00067F180 /* blood2.png in Resources */,
 				9DE0747F2103E47F0067F180 /* Image.atlas in Resources */,
-				9D2048C620EB6D10005348DE /* Player 6.png in Resources */,
 				9D2048BF20EACBCF005348DE /* Player 2.png in Resources */,
+				9DCDDFA421053A5E004EB7F8 /* PlayerSuper 3.png in Resources */,
 				9D20489720E9B089005348DE /* GameplayScene.sks in Resources */,
 				9D20487220E9AF7C005348DE /* LaunchScreen.storyboard in Resources */,
-				9D2048C120EACBCF005348DE /* Player 5.png in Resources */,
 				9D2048C220EACBCF005348DE /* Player 3.png in Resources */,
 				9DE074792103CBE70067F180 /* MyScene.sks in Resources */,
+				9DCDDFA521053A5E004EB7F8 /* PlayerSuper 2.png in Resources */,
 				9D2048C020EACBCF005348DE /* Player 1.png in Resources */,
-				9DE0747321029DA00067F180 /* blood1.png in Resources */,
+				9DCDDFA221053A5E004EB7F8 /* PlayerSuper 1.png in Resources */,
 				9D2048C420EB50C2005348DE /* Player 4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
